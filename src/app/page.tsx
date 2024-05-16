@@ -1,5 +1,7 @@
+import { ExampleComponent } from '@repo/shared';
+
 const RootPage: React.FC = () => {
-  return <div>Hello World!</div>;
+  return <ExampleComponent />;
 };
 
 export default RootPage;
